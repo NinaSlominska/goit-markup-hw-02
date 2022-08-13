@@ -21,6 +21,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -81,29 +84,29 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--accent-background-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    align-items: center;
-    text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
 }
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .team {
   background-color: var(--team-background-color);
@@ -113,29 +116,29 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;    
+  text-align: center;
 }
 .feature-list .title {
   color: var(--text-color);
 }
 .title-team {
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;   
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 .title-pr {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;       
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 .page-footer {
   background-color: var(--title-background-color);
 }
 .page-footer .link {
-    font-style: normal;
+  font-style: normal;
 }
 .footer-list .link {
   color: var(--title-text-color);
@@ -151,3 +154,4 @@ body {
 .footer-list .addres:focus {
   color: var(--accent-color);
 }
+

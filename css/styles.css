@@ -19,7 +19,12 @@
 .list {
     list-style: none;
 }
-
+.link {
+   text-decoration: none;
+}
+.page-header {
+    background-colo: var(--top-background-color)
+}
 .accent {
     color:var(--accent-color);
 }
@@ -40,7 +45,7 @@
 .auth-nav .link:focus {
     color:var(--accent-color);
 }
- .hero{
+ .hero {
     background-color: var(--title-background-color);
  }
 .hero .hero-title {
@@ -50,13 +55,17 @@
     color: var(--title-text-color);
     background: var(--accent-background-color);
 }
+
 .section-title {
      color:var(--text-color);
 }
 .feature-list .title {
-     color:var(--text-color);
+     color:var(--text-color); 
 }
-.footer {
+.team {
+     background-color: var(--section-background-color);
+}
+.page-footer {
     background-color: var(--title-background-color);
 }
 .footer-list .link {

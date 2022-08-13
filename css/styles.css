@@ -40,6 +40,9 @@
 .auth-nav .link:focus {
     color:var(--accent-color);
 }
+ .hero{
+    background-color: var(--title-background-color);
+ }
 .hero .hero-title {
     color: var(--title-text-color);
 }
@@ -52,6 +55,9 @@
 }
 .feature-list .title {
      color:var(--text-color);
+}
+.footer {
+    background-color: var(--title-background-color);
 }
 .footer-list .link {
     color: var(--title-text-color);

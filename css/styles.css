@@ -30,6 +30,7 @@ img {
 .link {
   text-decoration: none;
 }
+/* Боді. Хедер*/
 .page-header {
   background-color: var(--header-background-color);
 }
@@ -67,6 +68,7 @@ img {
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
+/* Боді. Майн. Героу*/
 .hero {
   background-color: var(--title-background-color);
   text-align: center;
@@ -90,6 +92,7 @@ img {
   align-items: center;
   text-align: center;
 }
+/* Боді. Майн. Хіден*/
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -111,6 +114,7 @@ img {
 .team {
   background-color: var(--team-background-color);
 }
+/* Боді. Майн. Займаємося.*/
 .section-title {
   color: var(--text-color);
   font-weight: 700;
@@ -121,6 +125,7 @@ img {
 .feature-list .title {
   color: var(--text-color);
 }
+/* Боді. Майн. Команда.*/
 .title-team {
   color: var(--text-color);
   font-weight: 500;
@@ -134,6 +139,7 @@ img {
   line-height: 1.18;
   text-align: center;
 }
+/* Боді. Футер*/
 .page-footer {
   background-color: var(--title-background-color);
 }
@@ -154,4 +160,25 @@ img {
 .footer-list .addres:focus {
   color: var(--accent-color);
 }
-
+/* Портфоліо. Маін. Баттон.*/
+.portfolio {
+  color: var(--text-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  cursor: pointer;
+  color: var(--title-text-color);
+  background-color: var(--accent-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;   
+}
+/* Портфоліо. Маін. Галерея.*/
+.gallery {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}

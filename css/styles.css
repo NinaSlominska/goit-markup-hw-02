@@ -60,7 +60,7 @@ img {
  {
   color: var(--accent-color);
 }
-.site-nav .link:active {
+.site-nav .current {
   color: var(--accent-color);
 }
 .auth-nav .link {

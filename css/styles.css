@@ -76,9 +76,6 @@ img {
   background-color: var(--title-background-color);
   text-align: center;
 }
-.hero-spacing {
-  letter-spacing: 0.06em;
-}
 .hero .hero-title {
   color: var(--title-text-color);
   font-weight: 900;

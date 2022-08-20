@@ -17,19 +17,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-}
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+
 }
 img {
   display: block;
@@ -39,11 +27,6 @@ img {
 }
 .link {
   text-decoration: none;
-}
-.container {
-  width: 1200;
-  margin-left: auto;
-  margin-right: auto;
 }
 /* Боді. Хедер*/
 .page-header {
@@ -71,7 +54,8 @@ img {
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus
+ {
   color: var(--accent-color);
 }
 .site-nav .current {
@@ -192,19 +176,19 @@ img {
   color: var(--text-color);
 }
 .portfolio-button {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--accent-background-color);
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -219,8 +203,8 @@ img {
   letter-spacing: 0.06em;
 }
 .portfolio-paragraph {
-  color: var(--primary-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
